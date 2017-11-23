@@ -1,0 +1,15 @@
+RABIN - KARP
+1. RABIN: true, Pos: 98, 1, 111
+1. EXAMPLE: true, Pos: 71, 1, 109
+1. TEST: true, Pos: 90, 1, 112
+1. STRING: true, Pos: 79, 1, 110
+
+KMP
+1. RABIN: true ,Pos: 98
+-> NEXT: -1	0	0	0	0	
+1. EXAMPLE: true ,Pos: 71
+-> NEXT: -1	0	0	0	0	0	-1	
+1. TEST: true ,Pos: 90
+-> NEXT: -1	0	0	-1	
+1. STRING: true ,Pos: 79
+-> NEXT: -1	0	0	0	0	0	
